@@ -43,14 +43,17 @@ Build your own flow cell, for use in standardized flow battery and slurry electr
     - Full cell will have the following order: "inlet" plate -> current collector gasket -> "non-conductive" plate -> (adhered to) graphite foil -> cell channel -> separator sheet -> cell channel -> graphite foil -> (adhered to) "non-conductive" plate -> current collector gasket -> "inlet" plate
         - Full cell has not been properly leak tested - consider printing the cell channels out of compressible polymers (Shore ~60-70) for better hermetic contact between cell channels. In the worst case (worst because it offers less control over channel thickness), consider using electrolyte chamber gaskets on either side of the separator.
     - The bolts should fit easily through each layer. Nuts will screw on either end and can be tightened to desired torque
-    - Note that the gaskets are _outside_ the current collector and separator - the only thing that defines the thickness of the channel is the thickness of the cell channel spacer. This allows granular tuning of channel thickness by printing channels of varying thickness
 8. If that somehow made sense - congratulations! You should have a testable flow cell.
 
 Here is an example image. Note that this is from earlier versions of this project so the geometries of each part may not align with the models. **TODO: include more instructive images/figures for each step.**
 
 <img width="587" height="539" alt="image" src="https://github.com/user-attachments/assets/563a82fb-cc45-4521-85c7-6b396a02817b" />
 
-
+## Build/compatibility notes
+- The cell electrolyte chamber has ~10 mm hole diameters on the top, built to accomodate 9.5 mm OD reference electrodes like from [Pine Research](https://pineresearch.com/products/reference-ag-agcl-standard-single/)
+- Note that the gaskets are _outside_ the current collector and separator - the only part that defines the thickness of the channel is the thickness of the cell channel spacer. This allows granular tuning of channel thickness by printing channels of varying thickness
+    - This was intentionally done to more easily study electrode thickness which slurry electrodes are sensitive to. This also means channel thickness won't change with compression/torque.
+- There is a third small hole in the electrolyte chamber - it was originally intended for gas sparging but may also be used for electrolyte recirculation in the electrolyte chamber. In the current version bubbles may occlude the reference/counter electrodes which can result in some noise. 
 
 # Fine Print
 
