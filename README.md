@@ -1,9 +1,12 @@
-# bench-half-flow-cell-build
+# Bench-scale Flow Cell Build
 Build your own flow cell, for use in standardized flow battery and slurry electrode experimental systems. Can use electrolyte chamber for half cell measurements or two of the same for full cell measurements
 
+
+
 ## License Summary
-- **Attribution (BY)**: You must give appropriate credit.
-- **Non-Commercial (NC)**: You cannot use this work for commercial purposes.
+CC BY-NC-SA 4.0
+- **Attribution (BY)**: Please give appropriate credit.
+- **Non-Commercial (NC)**: Usage is limited to research, educational, and personal applications.
 - **Share-Alike (SA)**: Any derivatives must be shared under the same license.
 
 ## Allowed Uses
