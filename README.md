@@ -53,7 +53,7 @@ Here is an example image. Note that this is from earlier versions of this projec
 - The cell electrolyte chamber has ~10 mm hole diameters on the top, built to accomodate 9.5 mm OD reference electrodes like from [Pine Research](https://pineresearch.com/products/reference-ag-agcl-standard-single/)
 - Note that the gaskets are _outside_ the current collector and separator - the only part that defines the thickness of the channel is the thickness of the cell channel spacer. This allows granular tuning of channel thickness by printing channels of varying thickness
     - This was intentionally done to more easily study electrode thickness which slurry electrodes are sensitive to. This also means channel thickness won't change with compression/torque.
-- There is a third small hole in the electrolyte chamber - it was originally intended for gas sparging but may also be used for electrolyte recirculation in the electrolyte chamber. In the current version bubbles may occlude the reference/counter electrodes which can result in some noise. 
+- There is a third small hole in the electrolyte chamber - it was originally intended for gas sparging but may also be used for electrolyte recirculation in the electrolyte chamber. In the current version bubbles may occlude the reference/counter electrodes which can result in some noise. I included small holes at the top of the reference electrode port to allow for slightly better gas distribution. Your mileage may vary.
 
 # Fine Print
 
