@@ -1,6 +1,8 @@
 # Bench-scale Flow Cell Build
 Build your own flow cell, for use in standardized flow battery and slurry electrode experimental systems. Can use electrolyte chamber for half cell measurements or two of the same for full cell measurements. 
 
+NOTE: This is precariously maintained/documented and very much a work in progress. Please feel free to reach out to me at mshahabuddin [at] wpi [dot] edu for any questions if attempting to build before fully documented.
+
 ## Bill of Materials 
 ### In this repo:
 - 1 "Inlet" type plate fabricated per "half cell" tested (i.e. for half cell measurements, only 1 inlet plate required)
