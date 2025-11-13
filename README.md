@@ -54,6 +54,11 @@ Here is an example image. Note that this is from earlier versions of this projec
 - Note that the gaskets are _outside_ the current collector and separator - the only part that defines the thickness of the channel is the thickness of the cell channel spacer. This allows granular tuning of channel thickness by printing channels of varying thickness
     - This was intentionally done to more easily study electrode thickness which slurry electrodes are sensitive to. This also means channel thickness won't change with compression/torque.
 - There is a third small hole in the electrolyte chamber - it was originally intended for gas sparging but may also be used for electrolyte recirculation in the electrolyte chamber. In the current version bubbles may occlude the reference/counter electrodes which can result in some noise. I included small holes at the top of the reference electrode port to allow for slightly better gas distribution. Your mileage may vary.
+- Inside each "part type" folder, there may be multiple versions of a "part type". For example for "inlet" parts, there is a closed flow manifold if only the flowing electrolyte is of interest. If, for example, an electrode is under study, there is an additional "air electrode" inlet plate that includes an `8 mm x 20 mm` window open to the air, where the current collector can be replaced by an air electrode membrane electrode assembly.
+- The flow channels have exposed surface areas of about `232 mm^2`. After accounting for the inlet port holes, the current collector surface area is `207 mm^2`. This will generally vary slightly with printer tolerance but most decent printers will get it within the square mm.To clarify:
+
+<img width="547" height="587" alt="image" src="https://github.com/user-attachments/assets/58792d47-e4ab-4702-ae73-b3cc5e65b2a0" />
+
 
 # Fine Print
 
